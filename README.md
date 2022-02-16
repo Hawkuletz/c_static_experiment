@@ -15,7 +15,7 @@ getmsg and setmsg are not visible to the main program (ex.c) except as
 function pointers inside buru or mumu structures.
 
 Of course, by doing this, we lose type protection offered by the compiler,
-i.e. one could call buru-\>setmsg(mumu) because afaik there is no concept of
+i.e. one could call buru-\>setmsg(mumu *,...) because afaik there is no concept of
 "this" in plain C (one has to have the corresponding struct passed as an
 argument to the method).
 
