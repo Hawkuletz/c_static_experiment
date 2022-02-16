@@ -19,6 +19,6 @@ i.e. one could call buru-\>setmsg(mumu *,...) because afaik there is no concept 
 "this" in plain C (one has to have the corresponding struct passed as an
 argument to the method).
 
-This is only "proof-of-concept" to settle an argument, nothing more.
+This is only "proof-of-concept", to show how it can be done.
 
 Build with GNU make
